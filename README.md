@@ -1,4 +1,4 @@
-# ARFishing
+# Ymgk-Proje (ARFishing)
 
 > AR-based marine ecosystem education app for ages 7–12.
 > Working title: **"Görünenin Ötesinde Bir Deniz"**
