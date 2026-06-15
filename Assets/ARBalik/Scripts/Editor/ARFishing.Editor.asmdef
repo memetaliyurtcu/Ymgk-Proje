@@ -1,0 +1,20 @@
+{
+    "name": "ARFishing.Editor",
+    "rootNamespace": "ARFishing.Editor",
+    "references": [
+        "ARFishing",
+        "Unity.XR.ARSubsystems",
+        "Unity.XR.ARSubsystems.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

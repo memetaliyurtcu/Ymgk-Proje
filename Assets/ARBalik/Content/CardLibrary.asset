@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: CardLibrary
+  m_EditorClassIdentifier: Unity.XR.ARSubsystems::UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
+  m_GuidLow: 5659022916168383931
+  m_GuidHigh: 568330497582430379
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5164130213655042492
+      m_GuidHigh: 15658253875876225213
+    m_SerializedTextureGuid:
+      m_GuidLow: 3644702172519035795
+      m_GuidHigh: 17638902055460866666
+    m_Size: {x: 0.105, y: 0.105}
+    m_SpecifySize: 1
+    m_Name: octopus
+    m_Texture: {fileID: 2800000, guid: c1177393955032946a0aa7ebf6f7c9f4, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5715355669772386456
+      m_GuidHigh: 8906952475159423398
+    m_SerializedTextureGuid:
+      m_GuidLow: 9094157215979710487
+      m_GuidHigh: 11315834320120338202
+    m_Size: {x: 0.105, y: 0.105}
+    m_SpecifySize: 1
+    m_Name: moon-jellyfish
+    m_Texture: {fileID: 2800000, guid: 1606a817efce7e341a57f23b5ceb099d, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4756282705255246641
+      m_GuidHigh: 11680308284020957837
+    m_SerializedTextureGuid:
+      m_GuidLow: 3910285665695413385
+      m_GuidHigh: 880384373880782904
+    m_Size: {x: 0.105, y: 0.105}
+    m_SpecifySize: 1
+    m_Name: clownfish
+    m_Texture: {fileID: 2800000, guid: 6a13b489201836443800f86eecc0370c, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4938930362653911181
+      m_GuidHigh: 16854681382106228876
+    m_SerializedTextureGuid:
+      m_GuidLow: 16196182430224346221
+      m_GuidHigh: 9834023723670002298
+    m_Size: {x: 0.105, y: 0.105}
+    m_SpecifySize: 1
+    m_Name: great-white-shark
+    m_Texture: {fileID: 2800000, guid: f6f1ec6d661be0c47a5a1d4a79787988, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5676614807490690557
+      m_GuidHigh: 3996140092745399436
+    m_SerializedTextureGuid:
+      m_GuidLow: 11125033120287343168
+      m_GuidHigh: 15490825097563167627
+    m_Size: {x: 0.105, y: 0.105}
+    m_SpecifySize: 1
+    m_Name: seahorse
+    m_Texture: {fileID: 2800000, guid: 112ec2400eae9a648b5bf5315a77fad6, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5613985359999582155
+      m_GuidHigh: 1737043854591406720
+    m_SerializedTextureGuid:
+      m_GuidLow: 843416423740747679
+      m_GuidHigh: 7452198930922744760
+    m_Size: {x: 0.105, y: 0.105}
+    m_SpecifySize: 1
+    m_Name: moray-eel
+    m_Texture: {fileID: 2800000, guid: cecc2f9f6ac40bb4b82b32b971876b67, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4874659289984576549
+      m_GuidHigh: 3855695048010700953
+    m_SerializedTextureGuid:
+      m_GuidLow: 2262087164998825439
+      m_GuidHigh: 9534353620602156730
+    m_Size: {x: 0.105, y: 0.105}
+    m_SpecifySize: 1
+    m_Name: stingray
+    m_Texture: {fileID: 2800000, guid: a0b9b5df8c4a1f64ba76f34e1ad45084, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5415319443480046633
+      m_GuidHigh: 17739857227524760235
+    m_SerializedTextureGuid:
+      m_GuidLow: 6256668455940064239
+      m_GuidHigh: 1605331470825096249
+    m_Size: {x: 0.105, y: 0.105}
+    m_SpecifySize: 1
+    m_Name: anglerfish
+    m_Texture: {fileID: 2800000, guid: b9b303ef26cf56d4390449a177484716, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4868709164034201219
+      m_GuidHigh: 16371003226310759088
+    m_SerializedTextureGuid:
+      m_GuidLow: 9147987618209816156
+      m_GuidHigh: 17831697937538629867
+    m_Size: {x: 0.105, y: 0.105}
+    m_SpecifySize: 1
+    m_Name: parrotfish
+    m_Texture: {fileID: 2800000, guid: 49115e5c2e457ef4eb400e3dccea76f7, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5047236719388199198
+      m_GuidHigh: 11792617115580510103
+    m_SerializedTextureGuid:
+      m_GuidLow: 1798196856782141434
+      m_GuidHigh: 10969844126608361064
+    m_Size: {x: 0.105, y: 0.105}
+    m_SpecifySize: 1
+    m_Name: crab
+    m_Texture: {fileID: 2800000, guid: 94b937fa7a8318f46886e5c71cb73c98, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4949701443158012886
+      m_GuidHigh: 6372080975940549796
+    m_SerializedTextureGuid:
+      m_GuidLow: 442643907627624046
+      m_GuidHigh: 10760507547304661082
+    m_Size: {x: 0.105, y: 0.105}
+    m_SpecifySize: 1
+    m_Name: starfish
+    m_Texture: {fileID: 2800000, guid: ec22a66e964906245a1001489a005595, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4907575924449651173
+      m_GuidHigh: 5705902245432438957
+    m_SerializedTextureGuid:
+      m_GuidLow: 14250651591900994350
+      m_GuidHigh: 11447178208028302120
+    m_Size: {x: 0.105, y: 0.105}
+    m_SpecifySize: 1
+    m_Name: mussel
+    m_Texture: {fileID: 2800000, guid: a11d1b2e7c1ec5c4289b1e32ee8bdc9e, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5445825193161302011
+      m_GuidHigh: 11425182977795272869
+    m_SerializedTextureGuid:
+      m_GuidLow: 5567656708347989341
+      m_GuidHigh: 6421381819845510330
+    m_Size: {x: 0.105, y: 0.105}
+    m_SpecifySize: 1
+    m_Name: squid
+    m_Texture: {fileID: 2800000, guid: 0c670d5d4a474d44ba040b43be541d59, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4976337944756487319
+      m_GuidHigh: 3687337572354025897
+    m_SerializedTextureGuid:
+      m_GuidLow: 13516511012230013229
+      m_GuidHigh: 11055715841032396617
+    m_Size: {x: 0.105, y: 0.105}
+    m_SpecifySize: 1
+    m_Name: sea-urchin
+    m_Texture: {fileID: 2800000, guid: eea0212d4b26bb94491f6552fbca6d99, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5438120037837358572
+      m_GuidHigh: 339607823767344573
+    m_SerializedTextureGuid:
+      m_GuidLow: 18191231375386054954
+      m_GuidHigh: 6865789034745224890
+    m_Size: {x: 0.105, y: 0.105}
+    m_SpecifySize: 1
+    m_Name: coral
+    m_Texture: {fileID: 2800000, guid: fcd3912a3c8dfc74badec226c02e485f, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4950262365063752249
+      m_GuidHigh: 7920591210175860391
+    m_SerializedTextureGuid:
+      m_GuidLow: 14403912786346599827
+      m_GuidHigh: 1165727902521166568
+    m_Size: {x: 0.105, y: 0.105}
+    m_SpecifySize: 1
+    m_Name: green-algae
+    m_Texture: {fileID: 2800000, guid: 2de56593fa5dc7e4e80a89de597f2d10, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4726698499365329747
+      m_GuidHigh: 14413394263196388272
+    m_SerializedTextureGuid:
+      m_GuidLow: 4094919202263027094
+      m_GuidHigh: 16948959691894984616
+    m_Size: {x: 0.105, y: 0.105}
+    m_SpecifySize: 1
+    m_Name: seagrass
+    m_Texture: {fileID: 2800000, guid: 92d04d96135138d4a88fd0530acd36eb, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5504389472717389138
+      m_GuidHigh: 9053028545969951934
+    m_SerializedTextureGuid:
+      m_GuidLow: 6409907378810343025
+      m_GuidHigh: 11306089161819007131
+    m_Size: {x: 0.105, y: 0.105}
+    m_SpecifySize: 1
+    m_Name: plankton
+    m_Texture: {fileID: 2800000, guid: c5254e7190cc58f49ba81dc1304ce79c, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5524395629608155902
+      m_GuidHigh: 16624251980973503133
+    m_SerializedTextureGuid:
+      m_GuidLow: 18186920637452811920
+      m_GuidHigh: 1641741157851885753
+    m_Size: {x: 0.105, y: 0.105}
+    m_SpecifySize: 1
+    m_Name: sea-turtle
+    m_Texture: {fileID: 2800000, guid: 19987e90ebf6fc64b970e67ee2a2c816, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5092885019534797513
+      m_GuidHigh: 16863659223710988431
+    m_SerializedTextureGuid:
+      m_GuidLow: 18402923329224108657
+      m_GuidHigh: 1092484222490272442
+    m_Size: {x: 0.105, y: 0.105}
+    m_SpecifySize: 1
+    m_Name: dolphin
+    m_Texture: {fileID: 2800000, guid: db26ea715143ff64ba6240b49c48290f, type: 3}

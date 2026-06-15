@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a0a757202928340a346dc4390e9a11, type: 3}
+  m_Name: CreatureDatabase
+  m_EditorClassIdentifier: ARFishing::ARFishing.Creatures.CreatureDatabase
+  m_Creatures:
+  - {fileID: 11400000, guid: accb762cbee82514590b78541a31d245, type: 2}
+  - {fileID: 11400000, guid: d2c81840a26f18546836e3e8a42e8b5c, type: 2}
+  - {fileID: 11400000, guid: bb8635cb03a752c499cbd8ce17919f34, type: 2}
+  - {fileID: 11400000, guid: c0a519bd01744e84c9e8665070562aae, type: 2}
+  - {fileID: 11400000, guid: b5942de136c13b443b95921ae9b70557, type: 2}

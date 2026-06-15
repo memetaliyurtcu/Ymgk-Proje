@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d8977d20c97ebf4fad4fc242e96d641, type: 3}
+  m_Name: octopus
+  m_EditorClassIdentifier: ARFishing::ARFishing.Creatures.CreatureDefinition
+  m_CreatureId: octopus
+  m_DisplayName: Ahtapot
+  m_Icon: {fileID: 0}
+  m_Category: 2
+  m_Habitat: 3
+  m_Diet: 1
+  m_EcosystemRole: 1
+  m_Threats:
+  - avlanma
+  - "habitat kayb\u0131"
+  m_InterestingTrait: "\xDC\xE7 kalbi ve mavi renkli kan\u0131 vard\u0131r; tehlike
+    an\u0131nda m\xFCrekkep f\u0131\u015Fk\u0131rtarak ka\xE7ar."
+  m_ModelPrefab: {fileID: 4674674131129745858, guid: 30a76fd96894cb84ab81c1f8226d4732, type: 3}
+  m_NarrationClip: {fileID: 8300000, guid: 4ad80819b00d9624e802df19db415a2d, type: 3}
+  m_ReferenceImageName: octopus

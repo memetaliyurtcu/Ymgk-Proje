@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d8977d20c97ebf4fad4fc242e96d641, type: 3}
+  m_Name: dolphin
+  m_EditorClassIdentifier: ARFishing::ARFishing.Creatures.CreatureDefinition
+  m_CreatureId: dolphin
+  m_DisplayName: Yunus
+  m_Icon: {fileID: 0}
+  m_Category: 7
+  m_Habitat: 2
+  m_Diet: 1
+  m_EcosystemRole: 1
+  m_Threats:
+  - "a\u011Fa tak\u0131lma"
+  - "plastik kirlili\u011Fi"
+  - "g\xFCr\xFClt\xFC kirlili\u011Fi"
+  m_InterestingTrait: "Uyurken beyninin yaln\u0131zca yar\u0131s\u0131n\u0131 kapat\u0131r;
+    di\u011Fer yar\u0131s\u0131 uyan\u0131k kalarak nefes almay\u0131 unutmaz."
+  m_ModelPrefab: {fileID: 5746563130834948563, guid: 564d51f53625c0d49b85b3ef86329593, type: 3}
+  m_NarrationClip: {fileID: 8300000, guid: bbdc213967822cb43b9bfd009ec9392e, type: 3}
+  m_ReferenceImageName: dolphin

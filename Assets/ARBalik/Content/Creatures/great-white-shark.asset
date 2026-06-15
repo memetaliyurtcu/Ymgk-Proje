@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d8977d20c97ebf4fad4fc242e96d641, type: 3}
+  m_Name: great-white-shark
+  m_EditorClassIdentifier: ARFishing::ARFishing.Creatures.CreatureDefinition
+  m_CreatureId: great-white-shark
+  m_DisplayName: "Beyaz K\xF6pekbal\u0131\u011F\u0131"
+  m_Icon: {fileID: 0}
+  m_Category: 1
+  m_Habitat: 2
+  m_Diet: 1
+  m_EcosystemRole: 1
+  m_Threats:
+  - avlanma
+  - "plastik kirlili\u011Fi"
+  m_InterestingTrait: "Di\u015Fleri \xF6mr\xFC boyunca s\xFCrekli yenilenir; hayat\u0131
+    boyunca on binlerce di\u015F \xFCretebilir."
+  m_ModelPrefab: {fileID: 2438718647069664319, guid: 66697321b32de50408a1a3fac1f8afef, type: 3}
+  m_NarrationClip: {fileID: 8300000, guid: 38c3cff54c51f064b90f9bb34f5ba5e4, type: 3}
+  m_ReferenceImageName: great-white-shark

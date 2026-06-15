@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d8977d20c97ebf4fad4fc242e96d641, type: 3}
+  m_Name: sea-turtle
+  m_EditorClassIdentifier: ARFishing::ARFishing.Creatures.CreatureDefinition
+  m_CreatureId: sea-turtle
+  m_DisplayName: "Deniz Kaplumba\u011Fas\u0131"
+  m_Icon: {fileID: 0}
+  m_Category: 8
+  m_Habitat: 2
+  m_Diet: 3
+  m_EcosystemRole: 2
+  m_Threats:
+  - "plastik kirlili\u011Fi"
+  - avlanma
+  - "k\u0131y\u0131 kayb\u0131"
+  m_InterestingTrait: "D\xFCnya'n\u0131n manyetik alan\u0131n\u0131 GPS gibi kullanarak
+    do\u011Fdu\u011Fu plaja geri d\xF6ner ve yumurtalar."
+  m_ModelPrefab: {fileID: 4180597520599218356, guid: 89da7fe6e8c286649b44d31147fff17c, type: 3}
+  m_NarrationClip: {fileID: 8300000, guid: c026e2dbdd15a51489b85a91c4e32773, type: 3}
+  m_ReferenceImageName: sea-turtle

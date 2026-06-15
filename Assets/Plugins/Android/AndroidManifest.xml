@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
+
+  <!--
+    Privacy stance: remove INTERNET from final merged manifest.
+    AR Foundation transitive deps declare it; we strip it via tools:node="remove".
+  -->
+  <uses-permission android:name="android.permission.INTERNET" tools:node="remove" />
+
+  <!--
+    Camera + ARCore feature requirements.
+    camera.ar required="false" so the app installs + launches on all devices.
+    Switch to "true" when distributing via Play Store with ARCore device filter.
+  -->
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-feature android:name="android.hardware.camera" android:required="true" />
+  <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+  <uses-feature android:name="android.hardware.camera.ar" android:required="false" />
+
+  <!--
+    Activity declared explicitly because manifest merger doesn't always pull the
+    Unity activity through when Plugins/Android/AndroidManifest.xml is present.
+    Class name matches androidApplicationEntry=2 (GameActivity) in ProjectSettings.
+    If you switch Player Settings → Other Settings → Application Entry Point to
+    "Activity" (mode 1), change android:name to com.unity3d.player.UnityPlayerActivity.
+  -->
+  <application>
+    <activity android:name="com.unity3d.player.UnityPlayerGameActivity"
+              android:theme="@style/BaseUnityGameActivityTheme"
+              android:screenOrientation="portrait"
+              android:launchMode="singleTask"
+              android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+              android:hardwareAccelerated="false"
+              android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+            <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+        </intent-filter>
+        <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+    </activity>
+
+    <!--
+      ARCore meta-data. tools:replace=value because Unity AR Mobile template's
+      auto-generated manifest declares this with a default value; without
+      tools:replace, Manifest Merger sees a conflict and drops things.
+    -->
+    <meta-data android:name="com.google.ar.core"
+               android:value="optional"
+               tools:replace="android:value" />
+  </application>
+
+</manifest>
